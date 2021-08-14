@@ -1,47 +1,47 @@
 {
   "FlightsRoutes": [
         {
-            "id": "1",
+            "id": 1,
             "sourceCode": "PNQ",
             "destinationCode": "MUM",
             "DepTime": "10.00 am",
             "ArrTime": "12.00pm",
-            "DurationHrs": "2",
-            "durationMin": "0",
-            "stops": "0",
+            "DurationHrs": 2,
+            "durationMin": 0,
+            "stops": 0,
             "name": "A-101"
         },
         {
-            "id": "2",
+            "id": 2,
             "sourceCode": "MUM",
             "destinationCode": "PNQ",
             "DepTime": "2.30 pm",
             "ArrTime": "3.45 pm",
-            "DurationHrs": "1",
-            "durationMin": "15",
-            "stops": "0",
+            "DurationHrs": 1,
+            "durationMin": 15,
+            "stops": 0,
             "name": "A-101"
         },
         {
-            "id": "3",
+            "id": 3,
             "sourceCode": "PNQ",
             "destinationCode": "MUM",
             "DepTime": "6.00 am",
             "ArrTime": "7.30 am",
-            "DurationHrs": "1",
-            "durationMin": "30",
-            "stops": "0",
+            "DurationHrs": 1,
+            "durationMin": 30,
+            "stops": 0,
             "name": "A-201"
         },
         {
-            "id": "4",
+            "id": 4,
             "sourceCode": "MUM",
             "destinationCode": "PNQ",
             "DepTime": "2.30 pm",
             "ArrTime": "3.45 pm",
-            "DurationHrs": "1",
-            "durationMin": "15",
-            "stops": "0",
+            "DurationHrs": 1,
+            "durationMin": 15,
+            "stops": 0,
             "name": "A-202"
         }
     ],
