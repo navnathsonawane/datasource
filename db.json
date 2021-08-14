@@ -1,53 +1,21 @@
 {
-  "flights": [
-      {
-        "id": 1,
-        "FlightCode": "AI-101",
-        "SeatsAvailable": 3,
-        "OriginDestination": { 
-            "Origin": "BLR", 
-            "Destination": "MAA", 
-            "DeptDate": new Date("05 May, 2018"), 
-            "ArrDate": new Date("05 May, 2018 03:00 AM") 
-        },
-        "FareDetails": 2000
-      },
-      {
-        "id": 2,
-        "FlightCode": "AI-560",
-        "SeatsAvailable": 6,
-        "OriginDestination": { 
-            "Origin": "BLR", 
-            "Destination": "MAA", 
-            "DeptDate": new Date("05 May, 2018"), 
-            "ArrDate": new Date("05 May, 2018 04:00 AM") 
-        },
-        "FareDetails": 2500
-      },
-      {
-        "id": 3,
-        "FlightCode": "AI-202",
-        "SeatsAvailable": 5,
-        "OriginDestination": { 
-            "Origin": "HYD", 
-            "Destination": "BLR", 
-            "DeptDate": new Date("08 May, 2018"), 
-            "ArrDate": new Date("08 May, 2018 06:00 AM") 
-        },
-        "FareDetails": 2000
-      },
-      {
-        "id": 4,
-        "FlightCode": "AI-300",
-        "SeatsAvailable": 10,
-        "OriginDestination": { 
-            "Origin": "BLR", 
-            "Destination": "HYD", 
-            "DeptDate": new Date("09 May, 2018"), 
-            "ArrDate": new Date("09 May, 2018  09:00 PM") 
-        },
-        "FareDetails": 2000
-      }
+ "flights": [
+    { "id": 1, "name": "Flight 1", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  },
+    { "id": 2, "name": "Flight 2", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  },
+    { "id": 3, "name": "Flight 3", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  },
+    { "id": 4, "name": "Flight 4", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  }
+  ],
+  "hotels": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" },
+    { "id": 4, "title": "Post 4" }
+  ],
+  "cars": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" },
+    { "id": 4, "title": "Post 4" }
   ],
   "profile": {
     "name": "Navnath Sonawane"
