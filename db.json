@@ -1,8 +1,17 @@
 {
   "flights": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+        "id": 1,
+        "FlightCode": "AI-101",
+        "SeatsAvailable": 3,
+        "OriginDestination": { 
+            "Origin": "BLR", 
+            "Destination": "MAA", 
+            "DeptDate": new Date("05 May, 2018"), 
+            "ArrDate": new Date("05 May, 2018 03:00 AM") 
+        },
+        "FareDetails": 2000
+  }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
