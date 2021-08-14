@@ -11,6 +11,42 @@
             "DeptDate": "05 May, 2018", 
             "ArrDate": "05 May, 2018 03:00 AM"
         }
+    },
+    {
+      "id": 2,
+      "FlightCode": "AI-560",
+      "SeatsAvailable": 6,
+      "FareDetails": 2500,
+      "OriginDestination": { 
+          "Origin": "BLR", 
+          "Destination": "MAA", 
+          "DeptDate": "05 May, 2018", 
+          "ArrDate": "05 May, 2018 04:00 AM"
+      }
+    },
+    {
+      "id": 3,
+      "FlightCode": "AI-202",
+      "SeatsAvailable": 5,
+      "FareDetails": 2000,
+      "OriginDestination": { 
+          "Origin": "HYD", 
+          "Destination": "BLR", 
+          "DeptDate": "08 May, 2018", 
+          "ArrDate": "08 May, 2018 06:00 AM" 
+      }
+    },
+    {
+      "id": 4,
+      "FlightCode": "AI-300",
+      "SeatsAvailable": 10,
+      "FareDetails": 2000,
+      "OriginDestination": { 
+          "Origin": "BLR", 
+          "Destination": "HYD", 
+          "DeptDate": "09 May, 2018", 
+          "ArrDate": "09 May, 2018  09:00 PM" 
+      }
     }
   ],
   "profile": {
