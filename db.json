@@ -1,54 +1,148 @@
 {
-  "flights": [
-    {
-        "id": 1,
-        "FlightCode": "AI-101",
-        "SeatsAvailable": 3,
-        "FareDetails": 2000,
-        "OriginDestination": { 
-            "Origin": "BLR", 
-            "Destination": "MAA", 
-            "DeptDate": "05 May, 2018", 
-            "ArrDate": "05 May, 2018 03:00 AM"
+  "FlightsRoutes": [
+        {
+            "id": "1",
+            "sourceCode": "PNQ",
+            "destinationCode": "MUM",
+            "DepTime": "10.00 am",
+            "ArrTime": "12.00pm",
+            "DurationHrs": "2",
+            "durationMin": "0",
+            "stops": "0",
+            "name": "A-101"
+        },
+        {
+            "id": "2",
+            "sourceCode": "MUM",
+            "destinationCode": "PNQ",
+            "DepTime": "2.30 pm",
+            "ArrTime": "3.45 pm",
+            "DurationHrs": "1",
+            "durationMin": "15",
+            "stops": "0",
+            "name": "A-101"
+        },
+        {
+            "id": "3",
+            "sourceCode": "PNQ",
+            "destinationCode": "MUM",
+            "DepTime": "6.00 am",
+            "ArrTime": "7.30 am",
+            "DurationHrs": "1",
+            "durationMin": "30",
+            "stops": "0",
+            "name": "A-201"
+        },
+        {
+            "id": "4",
+            "sourceCode": "MUM",
+            "destinationCode": "PNQ",
+            "DepTime": "2.30 pm",
+            "ArrTime": "3.45 pm",
+            "DurationHrs": "1",
+            "durationMin": "15",
+            "stops": "0",
+            "name": "A-202"
         }
-    },
-    {
-      "id": 2,
-      "FlightCode": "AI-560",
-      "SeatsAvailable": 6,
-      "FareDetails": 2500,
-      "OriginDestination": { 
-          "Origin": "BLR", 
-          "Destination": "MAA", 
-          "DeptDate": "05 May, 2018", 
-          "ArrDate": "05 May, 2018 04:00 AM"
-      }
-    },
-    {
-      "id": 3,
-      "FlightCode": "AI-202",
-      "SeatsAvailable": 5,
-      "FareDetails": 2000,
-      "OriginDestination": { 
-          "Origin": "HYD", 
-          "Destination": "BLR", 
-          "DeptDate": "08 May, 2018", 
-          "ArrDate": "08 May, 2018 06:00 AM" 
-      }
-    },
-    {
-      "id": 4,
-      "FlightCode": "AI-300",
-      "SeatsAvailable": 10,
-      "FareDetails": 2000,
-      "OriginDestination": { 
-          "Origin": "BLR", 
-          "Destination": "HYD", 
-          "DeptDate": "09 May, 2018", 
-          "ArrDate": "09 May, 2018  09:00 PM" 
-      }
-    }
-  ],
+    ],
+    "FlightAvalability": [
+        {
+            "id": "1",
+            "FlightRouteID": "1",
+            "seatsAvailable": "40",
+            "date": "15/08/2021",
+            "classType": "1",
+            "fare": "3000"
+        },
+        {
+            "id": "2",
+            "FlightRouteID": "1",
+            "seatsAvailable": "30",
+            "date": "15/08/2021",
+            "classType": "2",
+            "fare": "4000"
+        },
+        {
+            "id": "3",
+            "FlightRouteID": "1",
+            "seatsAvailable": "10",
+            "date": "15/08/2021",
+            "classType": "3",
+            "fare": "5500"
+        },
+        {
+            "id": "4",
+            "FlightRouteID": "2",
+            "seatsAvailable": "40",
+            "date": "15/08/2021",
+            "classType": "1",
+            "fare": "3000"
+        },
+        {
+            "id": "5",
+            "FlightRouteID": "2",
+            "seatsAvailable": "30",
+            "date": "15/08/2021",
+            "classType": "2",
+            "fare": "4000"
+        },
+        {
+            "id": "6",
+            "FlightRouteID": "2",
+            "seatsAvailable": "10",
+            "date": "15/08/2021",
+            "classType": "3",
+            "fare": "5500"
+        },
+        {
+            "id": "7",
+            "FlightRouteID": "3",
+            "seatsAvailable": "40",
+            "date": "15/08/2021",
+            "classType": "1",
+            "fare": "3000"
+        },
+        {
+            "id": "8",
+            "FlightRouteID": "3",
+            "seatsAvailable": "30",
+            "date": "15/08/2021",
+            "classType": "2",
+            "fare": "4000"
+        },
+        {
+            "id": "9",
+            "FlightRouteID": "3",
+            "seatsAvailable": "10",
+            "date": "15/08/2021",
+            "classType": "3",
+            "fare": "5500"
+        },
+        {
+            "id": "10",
+            "FlightRouteID": "4",
+            "seatsAvailable": "40",
+            "date": "15/08/2021",
+            "classType": "1",
+            "fare": "3000"
+        },
+        {
+            "id": "11",
+            "FlightRouteID": "4",
+            "seatsAvailable": "30",
+            "date": "15/08/2021",
+            "classType": "2",
+            "fare": "4000"
+        },
+        {
+            "id": "12",
+            "FlightRouteID": "4",
+            "seatsAvailable": "10",
+            "date": "15/08/2021",
+            "classType": "3",
+            "fare": "5500"
+        }
+    ],
   "profile": {
     "name": "Navnath Sonawane"
   }
