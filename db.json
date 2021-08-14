@@ -1,9 +1,9 @@
 {
  "flights": [
-    { "id": 1, "name": "Flight 1", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  },
-    { "id": 2, "name": "Flight 2", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  },
-    { "id": 3, "name": "Flight 3", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  },
-    { "id": 4, "name": "Flight 4", "departure": "", destination: "", "departureDate": "", "returnDate": "", "class": 0,  }
+    { "id": 1, "name": "Flight 1", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  },
+    { "id": 2, "name": "Flight 2", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  },
+    { "id": 3, "name": "Flight 3", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  },
+    { "id": 4, "name": "Flight 4", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  }
   ],
   "hotels": [
     { "id": 1, "title": "Post 1" },
