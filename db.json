@@ -1,23 +1,14 @@
 {
- "flights": [
-    { "id": 1, "name": "Flight 1", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  },
-    { "id": 2, "name": "Flight 2", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  },
-    { "id": 3, "name": "Flight 3", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  },
-    { "id": 4, "name": "Flight 4", "departure": "", "destination": "", "departureDate": "", "returnDate": "", "class": 0,  }
-  ],
-  "hotels": [
+  "posts": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4" }
+    { "id": 3, "title": "Post 3" }
   ],
-  "cars": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" },
-    { "id": 4, "title": "Post 4" }
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
-    "name": "Navnath Sonawane"
+    "name": "typicode"
   }
 }
