@@ -11,7 +11,7 @@
             "ArrDate": "05 May, 2018 03:00 AM"
         },
         "FareDetails": 2000
-      },
+      }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
