@@ -9,7 +9,25 @@
             "DurationHrs": 2,
             "durationMin": 0,
             "stops": 0,
-            "name": "A-101"
+            "name": "A-101",
+            "date": "15/08/2021",
+            "flightAvailability": [
+              {
+                  "seatsAvailable": "40",
+                  "classType": "1",
+                  "fare": "3000"
+              },
+              {
+                  "seatsAvailable": "30",
+                  "classType": "2",
+                  "fare": "4000"
+              },
+              {
+                  "seatsAvailable": "10",
+                  "classType": "3",
+                  "fare": "5500"
+              }
+            ]
         },
         {
             "id": 2,
@@ -20,7 +38,25 @@
             "DurationHrs": 1,
             "durationMin": 15,
             "stops": 0,
-            "name": "A-101"
+            "name": "A-101",
+            "date": "15/08/2021",
+            "flightAvailability": [
+              {
+                  "seatsAvailable": "40",
+                  "classType": "1",
+                  "fare": "3000"
+              },
+              {
+                  "seatsAvailable": "30",
+                  "classType": "2",
+                  "fare": "4000"
+              },
+              {
+                  "seatsAvailable": "10",
+                  "classType": "3",
+                  "fare": "5500"
+              }
+            ]
         },
         {
             "id": 3,
@@ -31,7 +67,25 @@
             "DurationHrs": 1,
             "durationMin": 30,
             "stops": 0,
-            "name": "A-201"
+            "name": "A-201",
+            "date": "15/08/2021",
+            "flightAvailability": [
+              {
+                  "seatsAvailable": "40",
+                  "classType": "1",
+                  "fare": "3000"
+              },
+              {
+                  "seatsAvailable": "30",
+                  "classType": "2",
+                  "fare": "4000"
+              },
+              {
+                  "seatsAvailable": "10",
+                  "classType": "3",
+                  "fare": "5500"
+              }
+            ]
         },
         {
             "id": 4,
@@ -42,105 +96,25 @@
             "DurationHrs": 1,
             "durationMin": 15,
             "stops": 0,
-            "name": "A-202"
-        }
-    ],
-    "FlightAvalability": [
-        {
-            "id": "1",
-            "FlightRouteID": "1",
-            "seatsAvailable": "40",
+            "name": "A-202",
             "date": "15/08/2021",
-            "classType": "1",
-            "fare": "3000"
-        },
-        {
-            "id": "2",
-            "FlightRouteID": "1",
-            "seatsAvailable": "30",
-            "date": "15/08/2021",
-            "classType": "2",
-            "fare": "4000"
-        },
-        {
-            "id": "3",
-            "FlightRouteID": "1",
-            "seatsAvailable": "10",
-            "date": "15/08/2021",
-            "classType": "3",
-            "fare": "5500"
-        },
-        {
-            "id": "4",
-            "FlightRouteID": "2",
-            "seatsAvailable": "40",
-            "date": "15/08/2021",
-            "classType": "1",
-            "fare": "3000"
-        },
-        {
-            "id": "5",
-            "FlightRouteID": "2",
-            "seatsAvailable": "30",
-            "date": "15/08/2021",
-            "classType": "2",
-            "fare": "4000"
-        },
-        {
-            "id": "6",
-            "FlightRouteID": "2",
-            "seatsAvailable": "10",
-            "date": "15/08/2021",
-            "classType": "3",
-            "fare": "5500"
-        },
-        {
-            "id": "7",
-            "FlightRouteID": "3",
-            "seatsAvailable": "40",
-            "date": "15/08/2021",
-            "classType": "1",
-            "fare": "3000"
-        },
-        {
-            "id": "8",
-            "FlightRouteID": "3",
-            "seatsAvailable": "30",
-            "date": "15/08/2021",
-            "classType": "2",
-            "fare": "4000"
-        },
-        {
-            "id": "9",
-            "FlightRouteID": "3",
-            "seatsAvailable": "10",
-            "date": "15/08/2021",
-            "classType": "3",
-            "fare": "5500"
-        },
-        {
-            "id": "10",
-            "FlightRouteID": "4",
-            "seatsAvailable": "40",
-            "date": "15/08/2021",
-            "classType": "1",
-            "fare": "3000"
-        },
-        {
-            "id": "11",
-            "FlightRouteID": "4",
-            "seatsAvailable": "30",
-            "date": "15/08/2021",
-            "classType": "2",
-            "fare": "4000"
-        },
-        {
-            "id": "12",
-            "FlightRouteID": "4",
-            "seatsAvailable": "10",
-            "date": "15/08/2021",
-            "classType": "3",
-            "fare": "5500"
+            "flightAvailability": [
+              {
+                  "seatsAvailable": "40",
+                  "classType": "1",
+                  "fare": "3000"
+              },
+              {
+                  "seatsAvailable": "30",
+                  "classType": "2",
+                  "fare": "4000"
+              },
+              {
+                  "seatsAvailable": "10",
+                  "classType": "3",
+                  "fare": "5500"
+              }
+            ]
         }
     ],
   "profile": {
