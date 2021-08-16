@@ -3,7 +3,7 @@
         {
             "id": 1,
             "sourceCode": "PNQ",
-            "destinationCode": "MUM",
+            "destinationCode": "BOM",
             "DepTime": "10.00 am",
             "ArrTime": "12.00 pm",
             "DurationHrs": 2,
@@ -31,7 +31,7 @@
         },
         {
             "id": 2,
-            "sourceCode": "MUM",
+            "sourceCode": "BOM",
             "destinationCode": "PNQ",
             "DepTime": "2.30 pm",
             "ArrTime": "3.45 pm",
@@ -61,7 +61,7 @@
         {
             "id": 3,
             "sourceCode": "PNQ",
-            "destinationCode": "MUM",
+            "destinationCode": "BOM",
             "DepTime": "6.00 am",
             "ArrTime": "7.30 am",
             "DurationHrs": 1,
@@ -89,7 +89,7 @@
         },
         {
             "id": 4,
-            "sourceCode": "MUM",
+            "sourceCode": "BOM",
             "destinationCode": "PNQ",
             "DepTime": "2.30 pm",
             "ArrTime": "3.45 pm",
