@@ -10,7 +10,7 @@
             "durationMin": 0,
             "stops": 0,
             "name": "Indigo A-101",
-            "date": "08-17-2021",
+            "date": "08-26-2021",
             "flightAvailability": [
               {
                   "seatsAvailable": "40",
@@ -39,7 +39,7 @@
             "durationMin": 15,
             "stops": 0,
             "name": "Indigo A-102",
-            "date": "08-17-2021",
+            "date": "08-26-2021",
             "flightAvailability": [
               {
                   "seatsAvailable": "40",
@@ -68,7 +68,7 @@
             "durationMin": 30,
             "stops": 0,
             "name": "Indian Airways A-201",
-            "date": "08-20-2021",
+            "date": "08-28-2021",
             "flightAvailability": [
               {
                   "seatsAvailable": "40",
@@ -97,7 +97,7 @@
             "durationMin": 15,
             "stops": 0,
             "name": "Indian Airways A-202",
-            "date": "08-20-2021",
+            "date": "08-28-2021",
             "flightAvailability": [
               {
                   "seatsAvailable": "40",
